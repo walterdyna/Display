@@ -1,0 +1,46 @@
+
+.box{
+    background: #ff1395;
+    height: 50px;
+    width: 50px;
+}
+
+.box-2 {
+    background: yellow;
+}
+
+.box-3 {
+    background: blue;
+}
+
+/* 
+Display
+
+ - BLOCK   ===> ja vem em todos elementos --> sempre toma conta da alinha
+ - INLINE  ===> coloca o conteudo em linha
+ - INLINE-BLOCK
+
+ - GRID
+ - FLEX
+
+   ***BLOCK***
+        VEM COM PADRÃO: DIV, SECTION, P, H1, H2, UL, LI, ARTICLE...
+        
+            -- OCUPA 100% DA LARGURA DO ELEMENTO PAI
+            -- SEMPRE OCUPA TODA A SUA LINHA
+            -- ALTURA DEFINIDA DE ACORDO COM O CONTEÚDO
+            -- PODEMOS DEFINIR HEIGHT E WIDTH
+            -- PODEMOS DEFINIR VALORES DE MARGIN
+
+    ***INLINE***
+        VEM COM PADRÃO A, SPAN, B, I ...
+
+            -- ELEMENTOS EM LINHA
+            -- NÃO PERIMTE ALTERAR HEIGHT E WIDTH
+            -- NÃO PODEMOS DEFINIR VALORES DE MARGIN TOP E BOTTOM
+            -- GANHA COMPORTAMNETO DE UMA PALAVRA 
+            
+    ***INLINE - BLOCK***
+            -- ELEMENTOS EM LINHA, POREM COM CARACTERISTICA DO DISPLAY BLOCK
+            -- ALTURA E LARGURA PODEM SER ALTERADOS
+            */
